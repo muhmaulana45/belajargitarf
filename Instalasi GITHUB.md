@@ -12,7 +12,7 @@
 # Login Akun Github
 1. Buka aplikasi github di browser 
 2. Lalu lakukan sign up pada github
-![](assetsgit/arf5.png)
+![200](assetsgit/arf5.png)
 4. Jika sudah memiliki akun langsung masukkan password dan username yang ada
 ![](assetsgit/arf6.png)
 6. Jika tidak memiliki akun klik tambahkan akun
