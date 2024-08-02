@@ -80,10 +80,10 @@ Dengan menggunakan `git status`, Kita dapat melihat status dari repository Kita,
 
 
 Berikut Hasilnya :
-![](assets/status1.png)
+![](assetsgit/arf18.png)
 ![](assetsgit/arf17.png)
 # GIT PUSH ORIGIN (MASTER)
-![](assets/master1.png)
+![](assetsgit/arf19.png)
 
 >[!Penjelasan]
 >`git push origin master` digunakan dalam Git untuk mengunggah (push) perubahan yang ada di branch `master` pada repository lokal ke branch `master` di remote repository yang disebut `origin`.
