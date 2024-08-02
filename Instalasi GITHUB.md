@@ -1,33 +1,33 @@
 # Instalasi Git Bash
 ## 1.download Git pada browser ketik 'git-scm'
-![](assetsgit/arf1.png)
+![](assetsgit/arf1.jpg)
 ## 2.Lalu klik Git Hub yang telah di instal
-![](assetsgit/arf2.png)
+![](assetsgit/arf2.jpg)
 
 ## 3.Lalu akan muncul tampilan seperti gambar
-![](assetsgit/arf3.png)
+![](assetsgit/arf3.jpg)
 
 ## 4.Maka klik 'next' terus hingga mendapatkan tampilan seperti gambar
-![](assetsgit/arf4.png)
+![](assetsgit/arf4.jpg)
 # Login Akun Github
 1. Buka aplikasi github di browser 
 2. Lalu lakukan sign up pada github
-![200](assetsgit/arf5.png)
+![200](assetsgit/arf5.jpg)
 4. Jika sudah memiliki akun langsung masukkan password dan username yang ada
-![](assetsgit/arf6.png)
+![](assetsgit/arf6.jpg)
 6. Jika tidak memiliki akun klik tambahkan akun
-![](assetsgit/arf7.png)
+![](assetsgit/arf7.jpg)
 7. Setelah buat akun maka akan tampil seperti gambar
-![](assetsgit/arf8.png)
+![](assetsgit/arf8.jpg)
 
 # Langkah - Langkah
 ## Buat Repositori GitHub Baru:
    - Login ke akun GitHub Anda.
    - Klik tombol "New" untuk membuat repositori baru.
-   ![](assetsgit/arf9.png)
+   ![](assetsgit/arf9.jpg)
+   
    - Berikan nama repositori, pilih apakah akan bersifat publik atau privat, lalu klik "Create repository".
-![](assetsgit/arf10.png)
-
+   ![](assetsgit/arf10.jpg)
 ## konfigurasi git lokal
 - Buka git di laptop/komputer anda.
 - Jalankan perintah berikut untuk mengatur identitas Anda:
@@ -36,17 +36,16 @@ git config --global user.name "nama"
 git config --global user.email "email"
 ~~~
 
-Note:untuk melihat apakah sudah terhubung konfigurasi git nya silakan ketik git config --list _contohnya_:
-![](assets/nama.png)
-![](assets/email.png)
-![](assetsgit/arf11.png)
+	Note:untuk melihat apakah sudah terhubung konfigurasi git nya silakan ketik git config --list _contohnya_:
+![](assetsgit/arf20.jpg)
+![](assetsgit/arf11.jpg)
 ## Inisialisasi Git Lokal:
    -  Buat direktori baru untuk proyek Anda dan navigasikan ke direktori tersebut menggunakan Git bash. Kemudian, inisialisasi Git di direktori tersebut dengan menjalankan perintah:
  ~~~sheel
 git init
 ~~~
  contohnya:
-   ![](assetsgit/arf12.png)
+   ![](assetsgit/arf12.jpg)
  
 ## Hubungkan ke Repositori GitHub:
 
@@ -56,7 +55,7 @@ git init
  ~~~
    Ganti username dan nama-repository dengan nama pengguna GitHub Anda dan nama repositori yang Anda buat.kalo dah ada tulisan (master),berarti sudah terhubung ke repositori Githubnya
 contohnya:
-![](assetsgit/arf13.png)
+![](assetsgit/arf13.jpg)
 ## Tambahkan file ke repositori: 
    - Perintah ini akan menambahkan semua file di direktori saat ini ke repositori.
    - Tambahkan file yang ingin Anda simpan di repositori Git dengan menjalankan perintah:
@@ -64,7 +63,7 @@ contohnya:
      git add 
 ~~~
 contohnya:
-![](assetsgit/arf14.png)
+![](assetsgit/arf14.jpg)
 
 # GIT STATUS
 
@@ -80,10 +79,10 @@ Dengan menggunakan `git status`, Kita dapat melihat status dari repository Kita,
 
 
 Berikut Hasilnya :
-![](assetsgit/arf18.png)
-![](assetsgit/arf17.png)
+![](assetsgit/arf18.jpg)
+![](assetsgit/arf17.jpg)
 # GIT PUSH ORIGIN (MASTER)
-![](assetsgit/arf19.png)
+![](assetsgit/arf19.jpg)
 
 >[!Penjelasan]
 >`git push origin master` digunakan dalam Git untuk mengunggah (push) perubahan yang ada di branch `master` pada repository lokal ke branch `master` di remote repository yang disebut `origin`.
@@ -113,7 +112,7 @@ Jika Benar, Langkah Selanjutnya kita menggunakan perintah `git status` membantu 
 Perintah `ls` sangat fleksibel dan memiliki banyak opsi lain yang bisa digunakan untuk mengatur tampilan daftar isi direktori sesuai dengan kebutuhan pengguna.
 
 Berikut Hasilnya :
-![](assetsgit/arf15.png)
+![](assetsgit/arf15.jpg)
 
 # CD 
 
@@ -127,7 +126,7 @@ Berikut Hasilnya :
 Dengan menggunakan perintah `cd` di Git Bash, Kita dapat dengan mudah menavigasi melalui berbagai direktori dalam sistem file Kita. Ini sangat berguna untuk mengelola proyek, mengakses file, dan menja lankan skrip atau program di lokasi yang berbeda.
 
 Berikut Hasilnya :
-![](assets/cd.png)
+![](assetsgit/arf21.jpg)
 
 ### Langkah-langkah yang Dijalankan
 
@@ -145,15 +144,15 @@ Berikut Hasilnya :
 - **Penjelasan**: Perintah ini digunakan untuk berpindah ke direktori `obsidian` yang berada di dalam drive `D:`.
 
 
-3. **Pindah ke direktori `BELAJAR_GITHUB` di dalam direktori `obsidian`**
+3. **Pindah ke direktori `belajargit_arf` di dalam direktori `obsidian`**
 
 `cd BELAJAR_GITHUB`
 
-- **Penjelasan**: Perintah ini digunakan untuk berpindah ke direktori `BELAJAR_GITHUB` yang berada di dalam direktori `obsidian`.
+- **Penjelasan**: Perintah ini digunakan untuk berpindah ke direktori `belajargit_arf` yang berada di dalam direktori `obsidian`.
 
 - **Output**:
 
-` /d/obsidian/BELAJAR_GITHUB`
+` /d/obsidian/belajargit_arf`
 ### Keseluruhan Proses
 
 - **Navigasi Awal:**
@@ -167,11 +166,11 @@ Berikut Hasilnya :
 
 - **Navigasi Ketiga:**
 
-- Dari direktori `obsidian`, Kita menggunakan perintah `cd BELAJAR_GITHUB` untuk masuk ke dalam sub-direktori `BELAJAR_GITHUB`.
+- Dari direktori `obsidian`, Kita menggunakan perintah `cd belajargit_arf` untuk masuk ke dalam sub-direktori `BELAJAR_GITHUB`.
 
 ### Kesimpulan
 
-Kita telah menggunakan serangkaian perintah `cd` di Git Bash untuk menavigasi melalui sistem file dari drive `D:`, kemudian ke direktori `obsidian`, dan akhirnya ke direktori `BELAJAR_GITHUB`. Setiap perintah `cd` digunakan untuk berpindah ke direktori yang lebih spesifik dalam hirarki direktori.
+Kita telah menggunakan serangkaian perintah `cd` di Git Bash untuk menavigasi melalui sistem file dari drive `D:`, kemudian ke direktori `obsidian`, dan akhirnya ke direktori `belajargit_arf`. Setiap perintah `cd` digunakan untuk berpindah ke direktori yang lebih spesifik dalam hirarki direktori.
 
 ## buat commit
 - Jalankan perintah berikut untuk membuat commit dengan pesan yang jelas:
@@ -180,6 +179,6 @@ Kita telah menggunakan serangkaian perintah `cd` di Git Bash untuk menavigasi me
      git commit -m "Pesan commit"
      ~~~
     *contohnya:*
-![](assetsgit/arf16.png)
+![](assetsgit/arf16.jpg)
 
 Selesai
