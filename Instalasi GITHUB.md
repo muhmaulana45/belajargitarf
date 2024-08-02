@@ -1,33 +1,32 @@
 # Instalasi Git Bash
 ## 1.download Git pada browser ketik 'git-scm'
-![](assets/scm.png)
+![](assetsgit/arf1.png)
 ## 2.Lalu klik Git Hub yang telah di instal
-![](assets/git.png)
+![](assetsgit/arf2.png)
 
 ## 3.Lalu akan muncul tampilan seperti gambar
-
-![](assets/gitt.png)
+![](assetsgit/arf3.png)
 
 ## 4.Maka klik 'next' terus hingga mendapatkan tampilan seperti gambar
-![](assets/p.png)
+![](assetsgit/arf4.png)
 # Login Akun Github
 1. Buka aplikasi github di browser 
 2. Lalu lakukan sign up pada github
-![](assets/login1.png)
+![](assetsgit/arf5.png)
 4. Jika sudah memiliki akun langsung masukkan password dan username yang ada
-![](assets/login2.png)
+![](assetsgit/arf6.png)
 6. Jika tidak memiliki akun klik tambahkan akun
-![](assets/login3.png)
+![](assetsgit/arf7.png)
 7. Setelah buat akun maka akan tampil seperti gambar
-![](assets/login4.png)
+![](assetsgit/arf8.png)
 
 # Langkah - Langkah
 ## Buat Repositori GitHub Baru:
    - Login ke akun GitHub Anda.
    - Klik tombol "New" untuk membuat repositori baru.
-   ![](assets/new.png)
+   ![](assetsgit/arf9.png)
    - Berikan nama repositori, pilih apakah akan bersifat publik atau privat, lalu klik "Create repository".
-![](assets/belajar.png)
+![](assetsgit/arf10.png)
 
 ## konfigurasi git lokal
 - Buka git di laptop/komputer anda.
@@ -40,14 +39,14 @@ git config --global user.email "email"
 Note:untuk melihat apakah sudah terhubung konfigurasi git nya silakan ketik git config --list _contohnya_:
 ![](assets/nama.png)
 ![](assets/email.png)
-![](assets/list.png)
+![](assetsgit/arf11.png)
 ## Inisialisasi Git Lokal:
    -  Buat direktori baru untuk proyek Anda dan navigasikan ke direktori tersebut menggunakan Git bash. Kemudian, inisialisasi Git di direktori tersebut dengan menjalankan perintah:
  ~~~sheel
 git init
 ~~~
  contohnya:
-   ![](assets/init.png)
+   ![](assetsgit/arf12.png)
  
 ## Hubungkan ke Repositori GitHub:
 
@@ -57,8 +56,7 @@ git init
  ~~~
    Ganti username dan nama-repository dengan nama pengguna GitHub Anda dan nama repositori yang Anda buat.kalo dah ada tulisan (master),berarti sudah terhubung ke repositori Githubnya
 contohnya:
-
-![](assets/remote.png)
+![](assetsgit/arf13.png)
 ## Tambahkan file ke repositori: 
    - Perintah ini akan menambahkan semua file di direktori saat ini ke repositori.
    - Tambahkan file yang ingin Anda simpan di repositori Git dengan menjalankan perintah:
@@ -66,8 +64,7 @@ contohnya:
      git add 
 ~~~
 contohnya:
-
-![](assets/add.png)
+![](assetsgit/arf14.png)
 
 # GIT STATUS
 
@@ -84,7 +81,7 @@ Dengan menggunakan `git status`, Kita dapat melihat status dari repository Kita,
 
 Berikut Hasilnya :
 ![](assets/status1.png)
-![](assets/status2.png)
+![](assetsgit/arf17.png)
 # GIT PUSH ORIGIN (MASTER)
 ![](assets/master1.png)
 
@@ -116,7 +113,7 @@ Jika Benar, Langkah Selanjutnya kita menggunakan perintah `git status` membantu 
 Perintah `ls` sangat fleksibel dan memiliki banyak opsi lain yang bisa digunakan untuk mengatur tampilan daftar isi direktori sesuai dengan kebutuhan pengguna.
 
 Berikut Hasilnya :
-![](assets/ls.png)
+![](assetsgit/arf15.png)
 
 # CD 
 
@@ -183,4 +180,6 @@ Kita telah menggunakan serangkaian perintah `cd` di Git Bash untuk menavigasi me
      git commit -m "Pesan commit"
      ~~~
     *contohnya:*
-![](assets/commit.png)
+![](assetsgit/arf16.png)
+
+Selesai
